@@ -1,6 +1,6 @@
 package CH10;
 
-import CH10.xcom.A;
+/*import CH10.xcom.A;
 
 public class Test6 extends A {
     public static void main(String[] args){
@@ -11,3 +11,4 @@ public class Test6 extends A {
         System.out.println(" " + new Test6().b); // OK! b has protected access in A class, can only access by extend
     }
 }
+*/

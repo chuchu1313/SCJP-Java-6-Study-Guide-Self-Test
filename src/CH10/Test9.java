@@ -1,10 +1,10 @@
 package CH10;
 
-import test.Baz;
+
 
 public class Test9{
     public static void main(String[] args){
-        new Baz();
+
     }
 }
 /*
