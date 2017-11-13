@@ -15,7 +15,7 @@ class Retread extends Tire{
         I.   void doStuff() { // Compile ok.
         II.  void doStuff() throws MyException { // Compile fail. Cannot declare wider range of exception than superclass doStuff()
         III. void doStuff() throws RuntimeException { // Compile ok.
-        IV.  void doStuff() throws ArithmeticException { // Compile fail. Cannot declare wider range of exception than superclass doStuff()
+        IV.  void doStuff() throws ArithmeticException { // Compile ok.
          */
         System.out.println(7/0); // ArithmeticException: / by zero
     }
