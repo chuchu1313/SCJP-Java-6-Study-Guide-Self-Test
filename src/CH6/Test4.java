@@ -19,6 +19,7 @@ class Computer implements Serializable{
             System.out.println("done");
         }catch (Exception e){
             System.out.println("exc"); //Keyboard should implements Serializable //java.io.NotSerializableException: CH6.Keyboard
+            //None of the object can be serialized
         }
     }
 }

@@ -19,5 +19,6 @@ class TKO{
         if(s1 < new Integer(7+1)){
             s+="fly ";
         }
+        System.out.println(s);
     }
 }
